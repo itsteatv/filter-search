@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+:root {
+  --primary-color: #00b4cc;
+  --background-color: #9dbfaf;
+  --product-image-color: #cce7d0
+}
+
+body {
+  background: #f2f2f2;
+  font-family: "PT Sans", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.title {
+  color: var(--primary-color);
+}
+
+.search-container {
+  width: 100%;
+}
+
+.search-bar {
+  border: 1px solid var(--primary-color);
+  border-radius: 0.3rem;
+  outline: none;
+  color: var(--background-color);
+}
+
+.search-bar::placeholder {
+  font-size: 0.75rem;
+  font-family: "PT Sans", sans-serif;
+  color: var(--primary-color);
+}
+
+.search-button {
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.product {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 1rem;
+  width: 18rem;
+  border-radius: 1rem;
+  box-shadow: 1.25rem 1.25rem 1.75rem rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--product-image-color);
+}
+
+.product-image:hover {
+  opacity: 0.7;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-1.5rem);
+  scale: 0.9;
+  cursor: pointer;
+}
+
+.product-title {
+  text-align: center;
+}
+
+.product-price {
+  margin-bottom: 1rem;
+  position: relative;
+  top: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media (min-width: 40em) {
+  .product-image {
+    margin: 0;
+  }
+}

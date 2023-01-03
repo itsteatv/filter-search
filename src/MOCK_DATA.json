@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/small_image/250x/9df78eab33525d08d6e5fb8d27136e95/a/r/artboard-1000x1000_-_2022-11-28t165541.206.jpg",
+    "title": "Ayaneo Air Pro",
+    "price": 1650
+
+  },
+  {
+    "id": 2,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/a/p/apple-macbook-m1-pro-laptop-silver-14-inch_1__1.jpg",
+    "title": "Apple MacBook Pro M1 Pro",
+    "price": 1990.90
+  },
+  {
+    "id": 3,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/p/s/ps5_vouch_horizon_forbidden_west.jpg",
+    "title": "PlayStation 5 Digital Edition Console",
+    "price": 200
+  },
+  {
+    "id": 4,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/a/r/artboard-1000x1000_-_2022-12-02t204659.923.jpg",
+    "title": "The Callisto Protocol",
+    "price": 79.99
+  },
+  {
+    "id": 5,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/a/r/artboard-700x700_83__2.jpg",
+    "title": "Logitech G Astro A30",
+    "price": 320.55
+  },
+  {
+    "id": 6,
+    "image": "https://m.xcite.com/media/catalog/product/cache/1/image/500x500/9df78eab33525d08d6e5fb8d27136e95/r/o/rog_strix_scar_17_se_intel_core_i9_12th_gen_32gb_ram_1tb_ssd_17.3-inch_nvidia_rtx_3080ti_gaming_laptop_1_.jpg",
+    "title": "Asus Rog Strix 17",
+    "price": 1099.99
+  }
+]
